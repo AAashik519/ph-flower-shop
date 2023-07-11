@@ -86,7 +86,7 @@ text-align: center;
     text-align: center;
 }
 
-/ 
+ 
 .feature-img-section{
     display: flex;
     justify-content: space-between;
@@ -162,6 +162,15 @@ text-align: center;
  
 
 /* hot deal section */
+.flower-desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+    padding: 40px 200px  ;
+    background: rgba(96, 139, 165, 0.116);
+
+}
 .hot-deal{
     display: flex;
     align-items: center;
@@ -221,17 +230,22 @@ text-align: center;
     line-height: 30px;
     margin-bottom: 30px;
 }
-  
+   
 .image-section  {
    display: flex; 
-   gap: 10px;
-   width: 25%;
+   
+   gap: 15px;
+   width: 260px;
 }  
 .image-section img{
     width:100%;
-     
  
 }
+ .flower-desc{
+    margin-top: 100px;
+ }
+
+
 .form-section{
     margin: 50px 0;
   
